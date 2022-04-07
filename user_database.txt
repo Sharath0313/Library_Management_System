@@ -1,10 +1,10 @@
-Sharath
-dinnu
+Student
+student
 1
-Priya
-chotu
+Professor
+professor
 2
-Dinnu
-sharath
+Librarian
+librarian
 3
 -1

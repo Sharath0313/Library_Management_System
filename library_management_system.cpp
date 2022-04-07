@@ -1132,6 +1132,12 @@ login:
             cout << "Your Fine_Amount: " << user_professor.get_fine() << endl;
             goto professor;
         }
+        else if(act == 5)
+        {
+            user_professor.Clear_fine_amount(&books);
+            cout << "Your Fines are now Cleared...\n" ;
+            goto professor;
+        }
         else if(act == 6)
         {
             cout << "Logged Out..\n";
@@ -1156,7 +1162,7 @@ login:
             books.Display();
             goto librarian;
         }
-        else if (act == 2)
+        else if(act == 2)
         {
             users.Display();
             goto librarian;
@@ -1180,7 +1186,7 @@ login:
                 goto librarian;
             }
         }
-        else if (act == 4)
+        else if(act == 4)
         {
             string n;
             
@@ -1217,7 +1223,7 @@ login:
                 goto librarian;
             }
         }
-        else if (act == 5)
+        else if(act == 5)
         {
             string title, author, publication, isbn, issued_to, duedate;
             cout << ">>Enter Book Title: " ;
@@ -1290,7 +1296,7 @@ login:
 
             goto librarian;
         }
-        else if (act == 7)
+        else if(act == 7)
         {
             int index;
             cout << ">>Enter Book Index: " ;
@@ -1301,7 +1307,7 @@ login:
 
             goto librarian;
         }
-        else if (act == 8)
+        else if(act == 8)
         {
             string n, i, p;
             cout << ">>Enter Username: ";
@@ -1354,7 +1360,7 @@ login:
             goto librarian;
 
         }
-        else if (act == 10)
+        else if(act == 10)
         {
             int index;
             cout << ">>Enter User Index: " ;
