@@ -916,7 +916,7 @@ int librarian_action(){
 void update_databases(Book_Database books, User_Database users){
     fstream fout;
 
-    fout.open("database/book_database.txt",ios::trunc | ios::out | ios::in);
+    fout.open("book_database.txt",ios::trunc | ios::out | ios::in);
 
     vector <Book> v = books.get_book_list();
 
@@ -935,7 +935,7 @@ void update_databases(Book_Database books, User_Database users){
     fout.close();
     fout.clear();
 
-    fout.open("database/user_database.txt",ios::trunc | ios::out | ios::in);
+    fout.open("../database/user_database.txt",ios::trunc | ios::out | ios::in);
 
     vector <User> u = users.get_user_list();
 
