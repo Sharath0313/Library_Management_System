@@ -1,9 +1,31 @@
 # Library_Management_System
-A basic Library Management System using C++ in terminal.
+A Library Management System using C++ on Command Line Interface.
 
 ## Setup and Installation
 
 Make sure you have a working [MinGW](https://www.mingw-w64.org/) installation.
+
+## Functionalities
+
+Students:
+* Can see all the books.
+* Can see list of books s/he has.
+* Can issue at max 5 books.
+* Can issue a book for 30 days.
+* Fine is 2 rupees/day after due date.
+
+Professor:
+* Can see all the books.
+* Can see list of books s/he has.
+* Can issue infinite number of books.
+* Can issue a book for 60 days.
+* Fine is 5 rupees/day after due date.
+
+Librarian:
+* Can list down all books/users.
+* Can check which book is issued to which user.
+* Can check list of books issue to user.
+* Can add/update/delete user or book.
 
 ## Database
 
@@ -47,7 +69,7 @@ Books
 Download the repository in your local directory and open a terminal in the folder. Run the command 
 
 ```bash
-  g++ library_management_system.cpp
+  g++ library_management_system.cpp class.cpp
 ```
 
 Followed by
